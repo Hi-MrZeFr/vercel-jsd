@@ -1,6 +1,9 @@
 {
     "version": 2,
     "routes": [
-      {"src": "/(.*)","dest": "https://cdn.jsdelivr.net"}
+      {"src": "/","dest": "/index.html"},
+      {"src": "/npm","dest": "https://cdn.jsdelivr.net/npm"},
+      {"src": "/gh","dest": "https://cdn.jsdelivr.net/gh"},
+      {"src": "/wp","dest": "https://cdn.jsdelivr.net/wp"}
     ]
 }
