@@ -2,7 +2,8 @@
     "version": 2,
     "routes": [
       {"src": "/","dest": "/index.html"},
-      {"src": "/(.*)","dest": "https://cdn.jsdelivr.net"}
+      {"src": "/jsd/(.*)","dest": "https://cdn.jsdelivr.net"}
+      {"src": "/assets/(.*)","dest": "https://mrzefr.s3.ladydaily.com"}
     ]
 }
 {
@@ -13,6 +14,10 @@
         {
           "key": "Cache-Control",
           "value": "public, s-maxage=864000, max-age=864000"
+        },
+        {
+          "key": "X-CDN-By",
+          "value": "MrZeFr"
         }
       ]
     }
