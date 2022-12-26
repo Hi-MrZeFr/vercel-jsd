@@ -4,9 +4,7 @@
       {"src": "/","dest": "/index.html"},
       {"src": "/jsd/(.*)","dest": "https://cdn.jsdelivr.net"}
       {"src": "/assets/(.*)","dest": "https://mrzefr.s3.ladydaily.com"}
-    ]
-}
-{
+    ],
   "headers": [
     {
       "source": "(.*)",
@@ -23,4 +21,3 @@
     }
   ]
 }
-
