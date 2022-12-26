@@ -5,3 +5,17 @@
       {"src": "/(.*)","dest": "https://cdn.jsdelivr.net"}
     ]
 }
+{
+  "headers": [
+    {
+      "source": "(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, s-maxage=864000, max-age=864000"
+        }
+      ]
+    }
+  ]
+}
+
